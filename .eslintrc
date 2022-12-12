@@ -1,4 +1,10 @@
 {
   "parser": "@typescript-eslint/parser",
-  "extends": [ "@avayler/eslint-config"]
+  "extends": ["@avayler/eslint-config"],
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "comma-dangle": "off"
+  }
 }
